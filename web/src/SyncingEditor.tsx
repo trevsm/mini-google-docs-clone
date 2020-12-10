@@ -4,7 +4,7 @@ import { initialValue } from "./slateInitialValue";
 import io from "socket.io-client";
 import { Operation, Value } from "slate";
 
-const socket = io("http://localhost:4000");
+const socket = io("http://devices.red:4000");
 
 interface Props {
   groupId: string;
